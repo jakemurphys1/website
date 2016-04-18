@@ -1,0 +1,101 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body{
+  background-image : url("../images/River.jpg");
+background-size: cover;
+}
+
+.header{
+  h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+    text-shadow: 3px 3px #111111;
+  }
+  h2{
+        text-align: center;
+          text-shadow: 2px 2px #111111;
+  }
+  background-color:rgb(73, 153, 203);
+  height:250px;
+  margin-top:50px;
+}
+
+.main{
+    font-size: 30px;
+}
+
+.tabs{
+  background-color: white;
+  border-bottom: black solid 0px;
+
+  a{
+      color:black;
+  }
+li{
+  margin:0 auto;
+  display: block;
+}
+}
+
+.footer{
+  padding-top: 40px;
+  padding-bottom:60px;
+  text-align: center;
+  background-color:rgb(235, 235, 235);
+}
+
+.image{
+      padding:150px;
+         overflow: hidden;
+  img{
+    -webkit-transform: rotate(90deg);
+-moz-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+transform: rotate(90deg);
+width:400px;
+height:auto;
+position:absolute;
+    clip: rect(50px,100px,100px,40px);
+  }
+  .rowCol{
+    padding: 300px;
+    background-color: white;
+  }
+
+}
+
+#details{
+  h1{
+    text-align: center;
+  }
+  p{
+    padding-left:40px;
+    padding-right:40px;
+  }
+  btn{
+    text-size:40px;
+  }
+  .playButton{
+    display: inline-block;
+    margin:0 auto;
+  }
+  background-color: white;
+}
