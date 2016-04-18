@@ -22,6 +22,7 @@ background-size: cover;
 }
 
 .header{
+  opacity: .9;
   h1{
     text-align: center;
     margin-top: 20px;
@@ -33,7 +34,7 @@ background-size: cover;
           text-shadow: 2px 2px #111111;
   }
   background-color:rgb(73, 153, 203);
-  height:250px;
+  height:200px;
   margin-top:50px;
 }
 
@@ -44,7 +45,7 @@ background-size: cover;
 .tabs{
   background-color: white;
   border-bottom: black solid 0px;
-
+  opacity: .9;
   a{
       color:black;
   }
@@ -58,12 +59,13 @@ li{
   padding-top: 40px;
   padding-bottom:60px;
   text-align: center;
-  background-color:rgb(235, 235, 235);
+  background-color:rgb(73, 153, 203);
 }
 
 .image{
       padding:150px;
          overflow: hidden;
+
   img{
     -webkit-transform: rotate(90deg);
 -moz-transform: rotate(90deg);
@@ -72,17 +74,19 @@ li{
 transform: rotate(90deg);
 width:400px;
 height:auto;
-position:absolute;
-    clip: rect(50px,100px,100px,40px);
+
   }
-  .rowCol{
-    padding: 300px;
-    background-color: white;
+  .rowCols{
+    padding: 50px;
+    background-color: rgb(73, 153, 203);
+    border:solid black 3px;
+    border-radius: 10px;
   }
 
 }
 
 #details{
+    opacity: .9;
   h1{
     text-align: center;
   }
@@ -98,4 +102,22 @@ position:absolute;
     margin:0 auto;
   }
   background-color: white;
+}
+
+.skills{
+  p{
+    font-size: 20px;
+  }
+}
+
+.sirch{
+  p{
+    color:white;
+    float:right;
+    margin-right: 20px;
+  }
+  a{
+    color:white;
+    text-decoration: none;
+  }
 }

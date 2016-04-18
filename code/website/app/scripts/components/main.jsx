@@ -23,7 +23,7 @@ var About = React.createClass({
         <div className="list-inline nav nav-tabs">
           <li><a href="#background">Background</a></li>
           <li><a href="#resume">Resume</a></li>
-          <li><a href="#Education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
         </div>
       </div>)
   },

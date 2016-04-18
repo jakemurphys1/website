@@ -19,11 +19,11 @@ var Incoming = React.createClass({
   render:function(){
 
     return(<div>
-      <h1>Incoming</h1>
-      <p>Prior to enlisting in The Iron Yard program, I spent monthes learning web languages in my free time.</p>
-      <p>Incoming is a turn-based stretagy game, using elements from X-Com, fire emblem, and other such games. Defend your capitol from legions of enemies using 12 unique soldiers. Each soldiers can grow up to level 7, and learn new abilities along the way. Use their strength against the enemies weaknesses or soon you will be overwhelmed.</p>
-      <p>Incoming is by far the largest game I have ever created and consists of about ten monthes of work. When developing this game, I learned essential concepts like styling, animation, and contructors. This knowledge was invaluable when I began my education.</p>
-
+      <h1>BatchMaker</h1>
+      <p>The BatchMaker project is a website that allows users to create recipes, and save them to a server to access later.</p>
+      <p>This project was completed over the course of a weekend. It uses a free server from heroku.com, and thus may have slower response time.</p>
+      <p>This project was made using HTML, CSS, Javascript, JQuery, React and Backbone. It uses the open source version of Parse for the storage.</p>
+      <p className="playButton"><a href="http://jakemurphys1.github.io/8.4-donuts/dist/index.html"><button className="btn btn-primary">View Here</button></a></p>
       </div>)
   },
 })

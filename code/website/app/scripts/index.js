@@ -12,7 +12,7 @@ var GamesForm=MainForm.Games;
 
 var BackgroundForm=require("./components/background.jsx")
 var ResumeForm=require("./components/resume.jsx")
-var EductionForm=require("./components/education.jsx")
+var SkillsForm=require("./components/skills.jsx")
 
 var GaminglocalForm=require("./components/gaminglocal.jsx")
 var MajesticthaiForm=require("./components/majesticthai.jsx")
@@ -39,7 +39,7 @@ var Router = Backbone.Router.extend({
     "games":"games",
     "background":"background",
     "resume":"resume",
-    "education":"education",
+    "skills":"skills",
     "incoming":"incoming",
     "wires":"wires",
     "chaching":"chaching",
@@ -49,14 +49,17 @@ var Router = Backbone.Router.extend({
   },
   about:function(){
     ReactDOM.unmountComponentAtNode(homeContainer);
+      ReactDOM.unmountComponentAtNode(detailContainer);
     ReactDOM.render(<AboutForm router={this}/>,homeContainer)
   },
   projects:function(){
     ReactDOM.unmountComponentAtNode(homeContainer);
+      ReactDOM.unmountComponentAtNode(detailContainer);
     ReactDOM.render(<ProjectsForm router={this}/>,homeContainer)
   },
   games:function(){
     ReactDOM.unmountComponentAtNode(homeContainer);
+      ReactDOM.unmountComponentAtNode(detailContainer);
     ReactDOM.render(<GamesForm router={this}/>,homeContainer)
   },
   background:function(){
@@ -67,9 +70,9 @@ var Router = Backbone.Router.extend({
     ReactDOM.unmountComponentAtNode(detailContainer);
     ReactDOM.render(<ResumeForm router={this}/>,detailContainer)
   },
-  education:function(){
+  skills:function(){
     ReactDOM.unmountComponentAtNode(detailContainer);
-    ReactDOM.render(<EductionForm router={this}/>,detailContainer)
+    ReactDOM.render(<SkillsForm router={this}/>,detailContainer)
   },
   incoming:function(){
     ReactDOM.unmountComponentAtNode(detailContainer);
